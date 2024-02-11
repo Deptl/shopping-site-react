@@ -1,0 +1,7 @@
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
