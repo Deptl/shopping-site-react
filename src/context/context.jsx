@@ -3,6 +3,7 @@ import { Items } from '../items';
 
 export const Context = createContext(null);
 
+//Getting default cart
 const defaultCart = () => {
     let cart = {}
     for (let i = 0; i < Items.length + 1; i++) {
@@ -15,18 +16,22 @@ export const ContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState(defaultCart());
 
+    //Function for adding to cart
     const addToCart = (itemId) => {
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
     }
 
+    //Function from deleting from cart
     const deleteFromCart = (itemId) => {
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
     }
 
+    //function to update cart items
     const updateCartItems = (updatePrice, itemId) =>{
         setCartItems((prev) => ({...prev, [itemId]: updatePrice}))
     }
 
+    //function for getting subtotal price
     const getSubTotal = () =>{
         let totalPrice = 0;
         let taxAmount = 0;

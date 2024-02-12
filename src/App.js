@@ -12,8 +12,11 @@ import { Checkout } from './Pages/Checkout';
 function App() {
   return (
     <div className="App">
+      {/* Wrapping with Context Provider */}
       <ContextProvider>
+        {/* Router for routing through whole website */}
         <Router>
+          {/* Setting nvbar above routes so that it is displayed in whole website */}
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
