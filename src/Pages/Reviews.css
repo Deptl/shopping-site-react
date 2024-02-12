@@ -1,0 +1,11 @@
+.reviews-container {
+    height: auto;
+    width: 800px;
+    margin: auto;
+    padding: 25px;
+}
+
+.review-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

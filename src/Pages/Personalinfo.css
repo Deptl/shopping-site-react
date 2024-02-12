@@ -1,0 +1,88 @@
+.info-container{
+    height: auto;
+    width: 800px;
+    margin: auto;
+    padding: 25px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+}
+
+.p-detail{
+    background-color: azure;
+    border-radius: 5px;
+    margin: 10px;
+    width: 350px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.ship-details{
+    background-color: azure;
+    border-radius: 5px;
+    margin: 10px;
+    width: 350px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.your-orders{
+    background-color: azure;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.security{
+    background-color: azure;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.membership{
+    background-color: azure;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.payment{
+    background-color: azure;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.gift-cards{
+    background-color: azure;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.cust-support{
+    background-color: azure;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

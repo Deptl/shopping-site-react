@@ -1,0 +1,12 @@
+.checkout{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.checkout p{
+    font-weight: 600;
+    font-size: x-large;
+}

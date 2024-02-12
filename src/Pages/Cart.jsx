@@ -28,7 +28,7 @@ export const Cart = () => {
                             <p>The final amount displayed is with 13% tax included.</p>
                             <p><b>Subtotal:</b> ${subTotal}</p>
                             <button className="back" onClick={() => navigate("/")}>Go to Products</button>
-                            <button className="go">Checkout</button>
+                            <button className="go" onClick={() => navigate("/Checkout")}>Checkout</button>
                         </div>
                 ) : (
                     <div className="empty">

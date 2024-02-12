@@ -8,7 +8,6 @@ export const Itemcard = (props) => {
   const cartItemCount = cartItems[id];
 
   return (
-    
       <div className='card'>
         <div className='image'>
           <img src={image} />
