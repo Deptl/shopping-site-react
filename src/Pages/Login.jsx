@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import './Login.css'
 
 export const Login = () => {
     const navigate = useNavigate();
@@ -13,7 +14,7 @@ export const Login = () => {
                     <input type="password" placeholder="Password" />
                 </div>
                 <button className="btn">Login</button>
-                <p className="login">First time here? <span onClick={navigate("/LoginSignup")}>Signup Here</span></p>
+                <p className="login">First time here? <span>Signup Here</span></p>
             </div>
         </div> 
     )
